@@ -1,3 +1,5 @@
+#it is immutable.
+
 name="mahak rajput"
 
 print(name[1:4])
