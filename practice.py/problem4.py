@@ -26,20 +26,33 @@
 # s.add(n)
 # print(s)
 
-from operator import le
+# _set=("18",18)
+# print(_set)
 
+# s = set()
+# s.add(20)
+# s.add(20.0)
+# s.add('20')
+# print(s,len(s)) # 20 and 20.0 are considered the same in a set, so only one of them is stored. '20' is a string, so it is stored separately.
 
-_set=("18",18)
-print(_set)
+# s={}
+# print(type(s)) # This will print <class 'dict'> because {} creates an empty dictionary, not a set.
+# name= input("Enter friends name: ")
+# lang= input("Enter friends language: ")
+# s.update({name:lang})
 
-s = set()
-s.add(20)
-s.add(20.0)
-s.add('20')
-print(s,len(s)) # 20 and 20.0 are considered the same in a set, so only one of them is stored. '20' is a string, so it is stored separately.
+# name= input("Enter friends name: ")
+# lang= input("Enter friends language: ")
+# s.update({name:lang})
 
-s={}
-print(type(s)) # This will print <class 'dict'> because {} creates an empty dictionary, not a set.
-# s.update({"mahak": "python","jiya": "java","rohan": "c++","mohan": "html"})
-# s1= input("enter the name you want to search: ")
-# print(s.get(s1, "Name not found")) 
+# name= input("Enter friends name: ")
+# lang= input("Enter friends language: ")
+# s.update({name:lang})
+
+# name= input("Enter friends name: ")
+# lang= input("Enter friends language: ")
+# s.update({name:lang})
+# print(s)
+
+s={8,7,12,"mahak",(1,20)}
+print(s)
