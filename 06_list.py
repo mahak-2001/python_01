@@ -1,3 +1,5 @@
+#list is mutable.
+
 friends=["apple","orange",5,34.45,True,"mahak"]
 print(friends[0])
 friends[0]="grapes"
