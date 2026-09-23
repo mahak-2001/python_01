@@ -3,6 +3,7 @@ a=int(input("enter your age: "))
 #multipe if statement:
 if(a%2==0):
     print("it is even no.")
+    
 if(a>=18):
     print("you are eligible for vote.")
 elif(a<0):
