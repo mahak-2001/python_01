@@ -28,7 +28,12 @@
 # greet("divya","thanks")
 
 def greet(name):
-    gr ="hello"+name
+    gr="hello"+name
     return gr
 a=greet ("mahak")
 # a will contain hello mahak.
+
+def goodDay(name,ending="thank you"):
+    print(f"good day ,{name}")
+    print(ending)
+goodDay("harry","thanks")

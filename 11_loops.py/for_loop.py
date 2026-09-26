@@ -28,8 +28,7 @@ for i in range(10):
     print(i)
     
 for i in range(645):
-    pass
-    
+    pass #work after sometime.it is null statement.
     
 i=0
 while(i<45):
