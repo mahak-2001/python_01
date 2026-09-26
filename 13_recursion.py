@@ -5,4 +5,3 @@ def fact(n):
     return n*fact(n-1)
 n=int(input("enter a no.: "))
 print(f"factorail of {n} is : {fact(n)}")
-print(f"factorail of {n} is : {fact(n)}")
