@@ -26,7 +26,7 @@ line2 = f.readline()
 print(line2)
 f.close()
 
-#with statement:
+#with statement (close file automatically):
 f=open("file.txt")
 print(f.read())
 f.close()
