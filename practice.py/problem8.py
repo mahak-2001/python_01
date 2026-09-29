@@ -27,21 +27,21 @@ def game():
     return score
 game()
 
-# #table for 1 to 20:
-# n=int(input("enter a no."))
-# print(f"table of {n}")
-# for i in range(1,11):
-#     print(f"{n*i}")
+#table for 1 to 20:
+n=int(input("enter a no."))
+print(f"table of {n}")
+for i in range(1,11):
+    print(f"{n*i}")
     
-# def genterateTable(n):
-#     table = ""
-#     for i in range(1,11):
-#         table += f"{n}*{i}={n*i}\n"
-#     with open(f"tables/table_{n}","w") as f:
-#         f.write(table)
+def genterateTable(n):
+    table = ""
+    for i in range(1,11):
+        table += f"{n}*{i}={n*i}\n"
+    with open(f"tables/table_{n}","w") as f:
+        f.write(table)
 
-# for i in range(2,21):
-#         genterateTable(i)
+for i in range(2,21):
+        genterateTable(i)
         
         
 word = "No"
