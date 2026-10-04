@@ -57,3 +57,25 @@ print(o.a)#print the instance attribute becaus instance attribute is not present
 print(demo.a)# print class  attribute
 
 
+import random 
+import randint
+class train():
+   def __init__(self,trainNo):
+      self.trainNo=trainNo
+      
+   def book(self,trainNo,fro,to):
+      print(f"your ticket is booked in train no. {self.trainNo} from {fro} to {to}")
+      
+   def getstatus(self,trainNo):
+      print(f"train {self.trainNo} is running on time")     
+      
+   def getfare(self,trainNo,fro,to):
+      print(f"your fare from train no. {self.trainNo} from {fro} to {to} is {randint(222,5555)}")
+      
+   t = train(12345)
+   t.book(12345,"delhi","mumbai")
+   t.getstatus(12345)
+   t.getfare(12345,"delhi","mumbai")   
+   
+   
+   
